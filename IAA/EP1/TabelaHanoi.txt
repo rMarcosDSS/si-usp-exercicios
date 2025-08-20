@@ -1,0 +1,64 @@
+| linha | aresta |
+| ----- | ------ |
+| 1     |  MAIN  |
+| 2     |   A    |
+| 3     |   B    |
+| 4     |   C    |
+| 5     |        | <- Ocorre Mudança
+| 6     |   C    |
+| 7     |   D    |
+| 8     |        | <- Ocorre Mudança
+| 9     |   D    |
+| 10    |   E    |
+| 11    |        | <- Ocorre Mudança
+| 12    |   E    |
+| 13    |   B    |
+| 14    |   F    |
+| 15    |        | <- Ocorre Mudança
+| 16    |   F    |
+| 17    |   G    |
+| 18    |   H    |
+| 19    |        | <- Ocorre Mudança
+| 20    |   H    |
+| 21    |   I    |
+| 22    |        | <- Ocorre Mudança
+| 23    |   I    |
+| 24    |   J    |
+| 25    |        | <- Ocorre Mudança
+| 26    |   J    |
+| 27    |   G    |
+| 28    |   A    |
+| 29    |   K    |
+| 30    |        | <- Ocorre Mudança
+| 31    |   K    |
+| 32    |   L    |
+| 33    |   M    |
+| 34    |   N    |
+| 35    |        | <- Ocorre Mudança
+| 36    |   N    |
+| 37    |   O    |
+| 38    |        |
+| 39    |   O    |
+| 40    |   P    |
+| 41    |        | <- Ocorre Mudança
+| 42    |   P    |
+| 43    |   M    |
+| 44    |   Q    |
+| 45    |        | <- Ocorre Mudança 
+| 46    |   Q    |
+| 47    |   R    |
+| 48    |   S    |
+| 49    |        | <- Ocorre Mudança
+| 50    |   S    |
+| 51    |   T    |
+| 52    |        | <- Ocorre Mudança
+| 53    |   T    |
+| 54    |   U    |
+| 55    |        | <- Ocorre Mudança
+| 56    |   U    |
+| 57    |   R    |
+| 58    |   L    |
+| 59    |  MAIN  |
+
+
+As arestas em branco na tabela ocorre devido ao uso do printf para representar quando ocorre a mudança, portanto não há utilização de aresta para chamada(subida) ou retorno(retorno).
